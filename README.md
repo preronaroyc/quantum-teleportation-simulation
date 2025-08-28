@@ -1,4 +1,4 @@
-**Quantum Teleportation Simulation using Qiskit AER Simulator**
+**Quantum Teleportation Simulation using Qiskit AER Simulator**  
 This is an implementation of the Quantum Teleportation protocol using Qiskit's AER simulator. 
 
 Quantum teleportation is a protocol that transfers an unknown quantum state from one party (Alice) to another (Bob) without moving the physical particle. It uses one qubit carrying the unknown state plus an entangled pair shared between Alice and Bob (three qubits total). In this protocol, Alice performs a joint (Bell) measurement on her two qubits, producing two classical bits which she sends to Bob, those classical bits tell Bob which Pauli corrections, if any, to apply to his half of the entangled pair, after which Bob’s qubit is in the original state and Alice’s initial qubit state is irreversibly destroyed.
